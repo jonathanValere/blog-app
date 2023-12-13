@@ -4,10 +4,12 @@ import Baseline from "./Baseline";
 
 const Header = () => {
   return (
-    <>
-      <Title title="Blog - Jonathan" />
-      <Baseline baseline="An awesome baseline" />
-    </>
+    <header>
+      <div className="container">
+        <Title title="Blog - Jonathan" />
+        <Baseline baseline="An awesome baseline" />
+      </div>
+    </header>
   );
 };
 
