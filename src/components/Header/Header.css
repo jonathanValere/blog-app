@@ -1,0 +1,15 @@
+header .container {
+  background-color: #fff;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header p {
+  margin: 1rem 0 3rem 0;
+  font-size: 1.1rem;
+}
