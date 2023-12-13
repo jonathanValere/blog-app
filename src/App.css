@@ -50,13 +50,19 @@ aside:hover img {
 article:hover,
 aside:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
 }
 
 main h2 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 1rem;
+}
+
+main h3 {
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 main img {
