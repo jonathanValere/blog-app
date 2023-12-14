@@ -6,7 +6,8 @@ const Header = () => {
   return (
     <header>
       <div className="container">
-        <Title title="Blog - Jonathan" />
+        <i className="fa-solid fa-bars"></i>
+        <Title title="Blog - Jonathan VALERE" />
         <Baseline baseline="An awesome baseline" />
       </div>
     </header>

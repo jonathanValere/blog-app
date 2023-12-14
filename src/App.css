@@ -102,3 +102,25 @@ footer span {
   font-weight: bold;
   text-decoration: none;
 }
+
+/* MEDIA QUERIES ----------------------------- */
+/* Under 1024px ------------- */
+@media (max-width: 1024px) {
+  main aside {
+    display: none;
+  }
+
+  main section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-top: 25%;
+  }
+
+  footer .container {
+    width: 100%;
+  }
+}

@@ -3,8 +3,8 @@ import Link from "./Link";
 
 const NavigationMenu = () => {
   return (
-    <div className="container">
-      <menu>
+    <menu>
+      <div className="container">
         <div>
           <Link link="Home" />
           <Link link="Link" />
@@ -13,8 +13,8 @@ const NavigationMenu = () => {
         <div>
           <Link link="Profil" />
         </div>
-      </menu>
-    </div>
+      </div>
+    </menu>
   );
 };
 
